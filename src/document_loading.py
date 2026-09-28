@@ -3,12 +3,12 @@ from langchain_community.document_loaders import PyPDFLoader
 
 
 def load_documents(folder_path):
-    """Load all PDF documents from a folder."""
+    """Load all PDF documents from a folder and its subfolders."""
 
     documents = []
 
-    # Load PDF documents from folder into documents
-    for pdf_path in Path(folder_path).glob("*.pdf"):
+    # Load PDF documents from folder and subfolders
+    for pdf_path in Path(folder_path).rglob("*.pdf"):
         loader = PyPDFLoader(str(pdf_path))
         documents.extend(loader.load())
 
