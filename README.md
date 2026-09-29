@@ -15,7 +15,7 @@ Addison Orndorff
 - Cost Tracking: Lab 3 CostTracker for cost projection
 
 ## System Architecture
-![RAG Architecture](docs/m1_architecture.sng)
+![RAG Architecture](docs/m1_architecture.svg)
 
 ## Setup
 1. Clone repository
