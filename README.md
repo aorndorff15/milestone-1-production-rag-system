@@ -2,8 +2,6 @@
 Data 790 Fall 2026
 Addison Orndorff
 
-## Overview
-
 ## Components
 - Documents: NASA Apollo mission documents
 - Vector Database: Chroma
